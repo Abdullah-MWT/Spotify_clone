@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <title>Spotify</title>
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="close">
+          <img src="./images/close.svg" class="invert" alt="close-icon">
+        </div>
+        <div class="home bg-grey rounded m-1 p-1">
+          <dv class="logo">
+            <img width="100" class="invert" src="./images/logo.svg" alt="logo" />
+          </dv>
+          <ul>
+            <li>
+              <img class="invert" src="./images/home.svg" alt="home" />Home
+            </li>
+            <li>
+              <img
+                class="invert"
+                src="./images/search.svg"
+                alt="search"
+              />Search
+            </li>
+          </ul>
+        </div>
+        <div class="library bg-grey m-1 p-1">
+          <div class="heading">
+            <img class="invert" src="./images/playlist.svg" alt="playlist" />
+            <h3>YOUR LIBRARY</h3>
+          </div>
+          <div class="songList">
+            <ul>
+              <!-- <li>
+                <img class="invert" src="./images/music.svg" alt="musicpic" />
+                <div class="info">
+                  <div>Song Name</div>
+                  <div>Song Artist</div>
+                </div>
+                <div class="playnow">
+                  <span>Play Now</span>
+                  <img class="invert" src="/images/play.svg" alt="playpic" />
+                </div>
+              </li> -->
+            </ul>
+          </div>
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/privacy/"
+                ><span>Privacy Center</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"
+                ><span>About Ads</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/accessibility/"
+                ><span>Accessibility</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey rounded p-1">
+        <div class="header">
+          <div class="nav">
+            <div class="hamburgerContainer">
+            <img src="./images/hamburger.svg" class="invert hamburger" alt="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              color="#fffff"
+              fill="none"
+            >
+              <path
+                d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              color="#fffff"
+              fill="none"
+            >
+              <path
+                d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          </div>
+          <div class="buttons">
+            <button class="signupbtn">Signup</button>
+            <button class="loginbtn">Login</button>
+          </div>
+        </div>
+        <div class="spotify-playlist">
+          <h2 class="m-1">Spotify Playlists</h2>
+          <div class="cardContainer">
+            <div class="card">
+              <div class="play">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://
+www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 20V4L19 12L5 20Z"
+                    stroke="#141B34"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt="song-img"
+              />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+
+            <div class="card">
+              <iframe
+                width="100%"
+                height="300"
+                scrolling="no"
+                frameborder="no"
+                allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/286785887&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+              ></iframe>
+              <div
+                style="
+                  font-size: 10px;
+                  color: #cccccc;
+                  line-break: anywhere;
+                  word-break: normal;
+                  overflow: hidden;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+                    Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+                  font-weight: 100;
+                "
+              >
+                <a
+                  href="https://soundcloud.com/ali-saqlain-350698657"
+                  title="alisaqlain818"
+                  target="_blank"
+                  style="color: #cccccc; text-decoration: none"
+                  >alisaqlain818</a
+                >
+                ·
+                <a
+                  href="https://soundcloud.com/ali-saqlain-350698657/sets/arjit-singh-songs"
+                  title="Arjit Singh songs"
+                  target="_blank"
+                  style="color: #cccccc; text-decoration: none"
+                  >Arjit Singh songs</a
+                >
+              </div>
+              <!-- <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt="song-img"
+              /> -->
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt="song-img"
+              />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt="song-img"
+              />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt="song-img"
+              />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt="song-img"
+              />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt="song-img"
+              />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt="song-img"
+              />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt="song-img"
+              />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt="song-img"
+              />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt="song-img"
+              />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt="song-img"
+              />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt="song-img"
+              />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt="song-img"
+              />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+          </div>
+          <div class="playbar invert">
+            <div class="playseek">
+              <div class="circle">
+                
+              </div>
+            </div>
+            <div class="barinfo">
+            <div class="songInfo"></div>
+            <div class="songBtns">
+              <img id="previous" src="./images/prevSong.svg" alt="PreviousSong" />
+              <img id="play" src="./images/play.svg" alt="playSong" />
+              <img id="next" src="./images/nextSong.svg" alt="nextSong" />
+            </div>
+            <div class="songTime"></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
